@@ -2,7 +2,7 @@
   "name": "code_challenge_pg_sql",
   "version": "1.0.0",
   "description": "Solo Code Challenge for SQL",
-  "main": "app.js",
+  "main": "server/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/app.js"
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/kdszafranski/code_challenge_pg_sql#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "pg": "^6.1.3"
   }
 }

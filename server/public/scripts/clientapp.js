@@ -44,9 +44,11 @@ $(document).ready(function () {
       method: 'POST',
       url: '/treats',
       data: treat,
+
     })
     .done(function () {
       console.log('POST /treats sent ', treat);
+      console.log(typeof treat);
       clearDom();
       getTreats();
     });
